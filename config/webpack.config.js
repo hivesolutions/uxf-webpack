@@ -8,7 +8,7 @@ const VueLoaderPlugin = vueLoader.VueLoaderPlugin;
 module.exports = {
     entry: "./vue",
     output: {
-        path: path.join(__dirname, "../dist"),
+        path: path.join(__dirname, "dist"),
         filename: "ux-vue.min.js?[hash]",
         library: "UxVue",
         libraryTarget: "umd"
