@@ -1,6 +1,6 @@
 {
     "name": "uxf-webpack",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Set of webpack configuration files to handle UXF",
     "keywords": [
         "components",
@@ -27,7 +27,7 @@
         "test": "mocha --recursive",
         "upgrade": "npx sort-package-json && ncu -au"
     },
-    "devDependencies": {
+    "dependencies": {
         "babel-core": "^6.26.3",
         "babel-loader": "^7.1.4",
         "babel-preset-env": "^1.7.0",
