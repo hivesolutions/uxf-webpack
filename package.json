@@ -1,7 +1,7 @@
 {
     "name": "uxf-webpack",
     "version": "0.1.0",
-    "description": "Set of Webpack configuration files to handle UXF",
+    "description": "Set of webpack configuration files to handle UXF",
     "keywords": [
         "components",
         "ui",
@@ -22,12 +22,8 @@
         "test/**/*.js"
     ],
     "scripts": {
-        "dev": "webpack-dev-server --config config/webpack.config.examples.js --mode development --watch --hot",
         "test": "mocha --recursive",
-        "upgrade": "npx sort-package-json && ncu -au",
-        "webpack": "webpack --config config/webpack.config.js",
-        "webpack-examples": "webpack --config config/webpack.config.examples.js",
-        "webpack-full": "webpack --config config/webpack.config.full.js"
+        "upgrade": "npx sort-package-json && ncu -au"
     },
     "devDependencies": {
         "babel-core": "^6.26.3",
