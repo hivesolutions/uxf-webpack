@@ -22,6 +22,7 @@
         "test/**/*.js"
     ],
     "scripts": {
+        "lint": "eslint config/**/*.js",
         "test": "mocha --recursive",
         "upgrade": "npx sort-package-json && ncu -au"
     },
