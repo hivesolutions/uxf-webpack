@@ -1,2 +1,3 @@
-# uxf_webpack
-Webpack templates for simple configuration of UXF Vue
+# UX Framework Webpack
+
+Webpack templates for simple configuration of UXF Vue.
