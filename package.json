@@ -18,8 +18,17 @@
     "license": "Apache-2.0",
     "author": "Hive Solutions",
     "files": [
-        "config/**/*.js"
+        "config/**/*.js",
+        "test/**/*.js"
     ],
+    "scripts": {
+        "dev": "webpack-dev-server --config config/webpack.config.examples.js --mode development --watch --hot",
+        "test": "mocha --recursive",
+        "upgrade": "npx sort-package-json && ncu -au",
+        "webpack": "webpack --config config/webpack.config.js",
+        "webpack-examples": "webpack --config config/webpack.config.examples.js",
+        "webpack-full": "webpack --config config/webpack.config.full.js"
+    },
     "devDependencies": {
         "babel-core": "^6.26.3",
         "babel-loader": "^7.1.4",
