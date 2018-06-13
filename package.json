@@ -21,6 +21,7 @@
         "config/**/*.js",
         "test/**/*.js"
     ],
+    "main": "config/webpack.config.js",
     "scripts": {
         "lint": "eslint config/**/*.js",
         "test": "mocha --recursive",
