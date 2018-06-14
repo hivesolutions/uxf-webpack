@@ -15,49 +15,64 @@ module.exports = {
     },
     plugins: [new VueLoaderPlugin({})],
     module: {
-        rules: [{
-            test: /\.vue$/,
-            loader: "vue-loader",
-            options: {
-                loaders: {
-                    js: "babel-loader!eslint-loader",
-                    scss: "vue-style-loader!css-loader!sass-loader",
-                    sass: "vue-style-loader!css-loader!sass-loader?indentedSyntax"
+        rules: [
+            {
+                test: /\.vue$/,
+                loader: "vue-loader",
+                options: {
+                    loaders: {
+                        js: "babel-loader!eslint-loader",
+                        scss: "vue-style-loader!css-loader!sass-loader",
+                        sass:
+                            "vue-style-loader!css-loader!sass-loader?indentedSyntax"
+                    }
                 }
-            }
-        }, {
-            test: /\.css$/,
-            use: ["style-loader", "css-loader"]
-        }, {
-            test: /\.(scss|sass)$/,
-            use: [{
-                loader: "style-loader"
-            }, {
-                loader: "css-loader"
-            }, {
-                loader: "sass-loader"
-            }]
-        }, {
-            test: /\.js$/,
-            exclude: /node_modules/,
-            use: [{
-                loader: "babel-loader",
-                query: {
-                    presets: ["env"]
+            },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"]
+            },
+            {
+                test: /\.(scss|sass)$/,
+                use: [
+                    {
+                        loader: "style-loader"
+                    },
+                    {
+                        loader: "css-loader"
+                    },
+                    {
+                        loader: "sass-loader"
+                    }
+                ]
+            },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                        loader: "babel-loader",
+                        query: {
+                            presets: ["env"]
+                        }
+                    },
+                    {
+                        loader: "eslint-loader"
+                    }
+                ]
+            },
+            {
+                test: /\.(png|jpg|gif|svg|ico)$/,
+                loader: "file-loader",
+                options: {
+                    name: "[name].[ext]?[hash]"
                 }
-            }, {
-                loader: "eslint-loader"
-            }]
-        }, {
-            test: /\.(png|jpg|gif|svg|ico)$/,
-            loader: "file-loader",
-            options: {
-                name: "[name].[ext]?[hash]"
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                loader: "file-loader"
             }
-        }, {
-            test: /\.(woff|woff2|eot|ttf|otf)$/,
-            loader: "file-loader"
-        }]
+        ]
     },
     resolve: {
         alias: {
