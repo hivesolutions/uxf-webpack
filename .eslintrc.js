@@ -1,3 +1,3 @@
 module.exports = {
-    "extends": "hive"
+    extends: "hive"
 };

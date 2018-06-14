@@ -25,6 +25,7 @@
     "scripts": {
         "lint": "eslint ./config/**/*.js",
         "test": "mocha --recursive",
+        "prettier": "prettier ./**/*.js --write",
         "upgrade": "npx sort-package-json && ncu -au"
     },
     "dependencies": {
@@ -39,12 +40,14 @@
         "html-webpack-plugin": "^3.2.0",
         "mocha": "^5.2.0",
         "npm-check-updates": "^2.14.2",
+        "prettier": "^1.13.5",
+        "prettier-config-hive": "^0.1.0",
         "sort-package-json": "^1.15.0",
         "style-loader": "^0.21.0",
         "vue-loader": "^15.2.4",
         "vue-template-compiler": "^2.5.16",
         "webpack": "^4.12.0",
-        "webpack-cli": "^3.0.3",
+        "webpack-cli": "^3.0.6",
         "webpack-dev-server": "^3.1.4"
     }
 }

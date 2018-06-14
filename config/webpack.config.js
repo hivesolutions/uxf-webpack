@@ -13,9 +13,7 @@ module.exports = {
         library: "UxVue",
         libraryTarget: "umd"
     },
-    plugins: [
-        new VueLoaderPlugin({})
-    ],
+    plugins: [new VueLoaderPlugin({})],
     module: {
         rules: [{
             test: /\.vue$/,
@@ -63,8 +61,8 @@ module.exports = {
     },
     resolve: {
         alias: {
-            "base$": "../../../js",
-            "vue$": "vue/dist/vue.esm.js"
+            base$: "../../../js",
+            vue$: "vue/dist/vue.esm.js"
         }
     },
     externals: {
