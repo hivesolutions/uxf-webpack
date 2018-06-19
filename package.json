@@ -23,9 +23,9 @@
     ],
     "main": "config/webpack.config.js",
     "scripts": {
-        "lint": "eslint ./config/**/*.js",
+        "lint": "eslint \"./config/**/*.js\"",
         "test": "mocha --recursive",
-        "prettier": "prettier ./**/*.js --write",
+        "prettier": "prettier \"./**/*.{js,json}\" --write",
         "upgrade": "npx sort-package-json && ncu -au"
     },
     "dependencies": {
