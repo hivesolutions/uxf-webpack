@@ -26,7 +26,7 @@
         "lint": "eslint \"./config/**/*.js\"",
         "test": "mocha --recursive",
         "prettier": "prettier \"./**/*.{js,json}\" --write",
-        "upgrade": "npx sort-package-json && ncu -au"
+        "upgrade": "npx sort-package-json && ncu -u"
     },
     "dependencies": {
         "@babel/core": "^7.4.0",
