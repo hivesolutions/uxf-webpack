@@ -33,7 +33,7 @@
         "@babel/preset-env": "^7.6.0",
         "babel-loader": "^8.0.6",
         "css-loader": "^3.2.0",
-        "eslint": "^6.3.0",
+        "eslint": "^6.4.0",
         "eslint-config-hive": "^0.1.22",
         "eslint-loader": "^3.0.0",
         "fibers": "^4.0.1",
@@ -48,12 +48,12 @@
         "sass-loader": "^8.0.0",
         "sort-package-json": "^1.22.1",
         "style-loader": "^1.0.0",
-        "stylelint": "^10.1.0",
+        "stylelint": "^11.0.0",
         "stylelint-config-hive": "^0.1.5",
         "vue-loader": "^15.7.1",
         "vue-template-compiler": "^2.6.10",
-        "webpack": "^4.40.1",
-        "webpack-cli": "^3.3.8",
-        "webpack-dev-server": "^3.8.0"
+        "webpack": "^4.40.2",
+        "webpack-cli": "^3.3.9",
+        "webpack-dev-server": "^3.8.1"
     }
 }
