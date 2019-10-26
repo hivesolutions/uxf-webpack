@@ -34,7 +34,7 @@
         "babel-loader": "^8.0.6",
         "css-loader": "^3.2.0",
         "eslint": "^6.6.0",
-        "eslint-config-hive": "^0.2.0",
+        "eslint-config-hive": "^0.2.1",
         "eslint-loader": "^3.0.2",
         "fibers": "^4.0.2",
         "file-loader": "^4.2.0",
