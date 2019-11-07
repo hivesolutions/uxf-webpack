@@ -29,8 +29,8 @@
         "upgrade": "npx sort-package-json && ncu -u"
     },
     "dependencies": {
-        "@babel/core": "^7.6.4",
-        "@babel/preset-env": "^7.6.3",
+        "@babel/core": "^7.7.2",
+        "@babel/preset-env": "^7.7.1",
         "babel-loader": "^8.0.6",
         "css-loader": "^3.2.0",
         "eslint": "^6.6.0",
@@ -41,19 +41,19 @@
         "html-webpack-plugin": "^3.2.0",
         "mocha": "^6.2.2",
         "node-sass": "^4.13.0",
-        "npm-check-updates": "^3.1.25",
+        "npm-check-updates": "^3.2.0",
         "prettier": "^1.18.2",
         "prettier-config-hive": "^0.1.1",
-        "sass": "^1.23.1",
+        "sass": "^1.23.3",
         "sass-loader": "^8.0.0",
-        "sort-package-json": "^1.22.1",
+        "sort-package-json": "^1.23.1",
         "style-loader": "^1.0.0",
         "stylelint": "^11.1.1",
         "stylelint-config-hive": "^0.1.5",
-        "vue-loader": "^15.7.1",
+        "vue-loader": "^15.7.2",
         "vue-template-compiler": "^2.6.10",
         "webpack": "^4.41.2",
-        "webpack-cli": "^3.3.9",
+        "webpack-cli": "^3.3.10",
         "webpack-dev-server": "^3.9.0"
     }
 }
