@@ -61,10 +61,18 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|jpg|gif|svg|svga|ico)$/,
+                test: /\.(png|jpg|gif|svg|ico)$/,
                 loader: "file-loader",
                 options: {
                     name: "[name].[ext]?[hash]",
+                    esModule: false
+                }
+            },
+            {
+                test: /\.(svga)$/,
+                loader: "file-loader",
+                options: {
+                    name: "[name].svg?[hash]",
                     esModule: false
                 }
             },
