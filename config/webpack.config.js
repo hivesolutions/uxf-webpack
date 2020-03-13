@@ -64,7 +64,12 @@ module.exports = {
                 test: /\.(png|jpg|gif|svg|ico)$/,
                 loader: "file-loader",
                 options: {
-                    name: "[name].[ext]?[hash]",
+                    name: (path, query) => {
+                        if (process.env.NODE_ENV === "development") {
+                            return "[path][name].[ext]?[hash]";
+                        }
+                        return "[contenthash].[ext]";
+                    },
                     esModule: false
                 }
             },
@@ -72,7 +77,12 @@ module.exports = {
                 test: /\.(svga)$/,
                 loader: "file-loader",
                 options: {
-                    name: "[name].svg?[hash]",
+                    name: (path, query) => {
+                        if (process.env.NODE_ENV === "development") {
+                            return "[path][name].[ext]?[hash]";
+                        }
+                        return "[contenthash].[ext]";
+                    },
                     esModule: false
                 }
             },
