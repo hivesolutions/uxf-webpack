@@ -1,6 +1,6 @@
 {
     "name": "uxf-webpack",
-    "version": "0.3.16",
+    "version": "0.3.17",
     "description": "Set of webpack configuration files to handle UXF",
     "keywords": [
         "components",
