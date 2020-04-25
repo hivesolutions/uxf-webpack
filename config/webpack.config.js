@@ -7,6 +7,7 @@ const VueLoaderPlugin = vueLoader.VueLoaderPlugin;
 
 module.exports = {
     entry: "./vue",
+    target: process.env.WP_TARGET || "web",
     output: {
         path: path.join(__dirname, "dist"),
         filename: "ux-vue.min.js?[hash]",
