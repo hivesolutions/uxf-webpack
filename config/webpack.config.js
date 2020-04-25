@@ -52,7 +52,18 @@ module.exports = {
                     {
                         loader: "babel-loader",
                         query: {
-                            presets: ["@babel/preset-env"]
+                            presets: [
+                                process.env.NODE_ENV === "development"
+                                    ? [
+                                          "@babel/preset-env",
+                                          {
+                                              targets: {
+                                                  browsers: ["last 2 years"]
+                                              }
+                                          }
+                                      ]
+                                    : "@babel/preset-env"
+                            ]
                         }
                     },
                     {
