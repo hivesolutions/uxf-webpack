@@ -1,8 +1,6 @@
 dist: trusty
 language: node_js
 node_js:
-  - "8"
-  - "9"
   - "10"
   - "11"
   - "12"
@@ -20,4 +18,4 @@ deploy:
     secure: W4FJ38uf2BjaTZrc91VTszfrS+Jq5aUw5E1/Va4uWlU/QgbiMj+TPMH/VcVem9FgtDM3kQ6M61S7cYM/8GLz9SHGXC8Xj17oBD39YWusZTKv5fFdQ0Z4D98qbec7y9H2NL9kM6CUJKP0MMLWS7QVwHQqQFYLNhauuznejrlHwArEi2niKWcnjzE+RQMocu9ie1QhGu1XtdaEyKHDXRO6/008bHbXWOKyE5f03qPmDe+uwqstwfn4gZtSLV91C78tLEd62tnb1H5mw6NaV/91HAtNqHY9uYycvlyFL3YdGkLyhebIg4Lp9VRmNgSnWGx+GeUQ5ivoZC2PqCCdjy6dCBWC4uzMS/7hJu3P9O9oHjT6vs++8lqPxXNimvufF+iSTYpZXFoqzTaz/ZC93E2QuIsgyupIuW+i0n38A9p9ExcdYLhBOj871VMvG4QV1VIagyJFhr8B7IPebWHGI6MhfY1ORxbV56gM2Dh25JrlKctFVYfMhHiOo5+xquwmAAuwCW+uG6bbxyQS8GPYyuHxlMpvNdj8B4R4nATWLk6u4iY78bRNR3PG5cdi3E7QWNAj8fdCS85H2LKwv+/Bw6Q/f63HUycOyhzEgP7yKexnFbtcpkFoJRZF/bLXZRzxEk6nFAKJ2j39Tt8iiScSX4fFc+1d9uejKI1RAJ+x8KvFU8I=
   on:
     tags: true
-    node_js: "8"
+    node_js: "10"
