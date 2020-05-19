@@ -52,7 +52,7 @@ module.exports = {
                 use: [
                     {
                         loader: "babel-loader",
-                        query: {
+                        options: {
                             presets: [
                                 process.env.NODE_ENV === "development"
                                     ? [
