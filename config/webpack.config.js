@@ -60,19 +60,19 @@ module.exports = {
                                           "@babel/preset-env",
                                           {
                                               targets: {
-                                                browsers: ["last 2 years"]
+                                                  browsers: ["last 2 years"]
                                               },
-                                              useBuiltIns: "usage",
+                                              useBuiltIns: "entry",
                                               corejs: "3"
                                           }
                                       ]
                                     : [
-                                        "@babel/preset-env",
-                                        {
-                                            useBuiltIns: "usage",
-                                            corejs: "3"
-                                        }
-                                    ]
+                                          "@babel/preset-env",
+                                          {
+                                              useBuiltIns: "entry",
+                                              corejs: "3"
+                                          }
+                                      ]
                             ],
                             plugins: [
                                 [
