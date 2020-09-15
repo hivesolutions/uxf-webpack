@@ -30,8 +30,11 @@
     },
     "dependencies": {
         "@babel/core": "^7.11.5",
+        "@babel/plugin-transform-runtime": "^7.11.5",
         "@babel/preset-env": "^7.11.5",
+        "@babel/runtime": "^7.11.2",
         "babel-loader": "^8.1.0",
+        "core-js": "^3.6.5",
         "cross-env": "^7.0.2",
         "css-loader": "^4.2.2",
         "eslint": "^7.8.1",
