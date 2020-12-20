@@ -1,9 +1,11 @@
 const path = require("path");
 const webpack = require("webpack");
+const eslintWebpackPlugin = require("eslint-webpack-plugin");
 
 const vueLoader = require("vue-loader");
 
 const VueLoaderPlugin = vueLoader.VueLoaderPlugin;
+const ESLintPlugin = eslintWebpackPlugin;
 
 module.exports = {
     entry: "./vue",
@@ -14,7 +16,7 @@ module.exports = {
         library: "UxVue",
         libraryTarget: "umd"
     },
-    plugins: [new VueLoaderPlugin({})],
+    plugins: [new VueLoaderPlugin({}), new ESLintPlugin({})],
     module: {
         rules: [
             {
@@ -22,7 +24,7 @@ module.exports = {
                 loader: "vue-loader",
                 options: {
                     loaders: {
-                        js: "babel-loader!eslint-loader",
+                        js: "babel-loader",
                         scss: "vue-style-loader!css-loader!sass-loader",
                         sass: "vue-style-loader!css-loader!sass-loader?indentedSyntax"
                     }
@@ -83,9 +85,6 @@ module.exports = {
                                 ]
                             ]
                         }
-                    },
-                    {
-                        loader: "eslint-loader"
                     }
                 ]
             },
