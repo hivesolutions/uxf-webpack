@@ -44,7 +44,6 @@
         "file-loader": "^6.2.0",
         "html-webpack-plugin": "^4.5.0",
         "mocha": "^8.2.1",
-        "node-sass": "^5.0.0",
         "npm-check-updates": "^10.2.5",
         "prettier": "^2.2.1",
         "prettier-config-hive": "^0.1.7",
