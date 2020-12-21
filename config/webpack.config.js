@@ -16,7 +16,12 @@ module.exports = {
         library: "UxVue",
         libraryTarget: "umd"
     },
-    plugins: [new VueLoaderPlugin({}), new ESLintPlugin({})],
+    plugins: [
+        new VueLoaderPlugin({}),
+        new ESLintPlugin({
+            extensions: ["js", "jsx", "vue"]
+        })
+    ],
     module: {
         rules: [
             {
