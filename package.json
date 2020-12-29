@@ -38,7 +38,7 @@
         "cross-env": "^7.0.3",
         "css-loader": "^5.0.1",
         "eslint": "^7.16.0",
-        "eslint-config-hive": "^0.5.1",
+        "eslint-config-hive": "^0.5.3",
         "eslint-webpack-plugin": "^2.4.1",
         "fibers": "^5.0.0",
         "file-loader": "^6.2.0",
