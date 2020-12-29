@@ -11,3 +11,5 @@ install:
 script: npm run lint && npm test
 git:
   submodules: false
+cache:
+  npm: false
