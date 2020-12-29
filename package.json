@@ -54,8 +54,8 @@
         "stylelint-config-hive": "^0.1.8",
         "vue-loader": "^15.9.6",
         "vue-template-compiler": "^2.6.12",
-        "webpack": "^5.11.1",
-        "webpack-cli": "^4.3.0",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12",
         "webpack-dev-server": "^3.11.0"
     },
     "devDependencies": {
