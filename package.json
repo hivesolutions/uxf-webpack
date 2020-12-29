@@ -51,7 +51,7 @@
         "sort-package-json": "^1.48.0",
         "style-loader": "^2.0.0",
         "stylelint": "^13.8.0",
-        "stylelint-config-hive": "^0.1.8",
+        "stylelint-config-hive": "^0.1.9",
         "vue-loader": "^15.9.6",
         "vue-template-compiler": "^2.6.12",
         "webpack": "^4.44.2",
