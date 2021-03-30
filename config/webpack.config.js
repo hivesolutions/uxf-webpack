@@ -107,7 +107,7 @@ module.exports = {
                 }
             },
             {
-                test: /\.(svga)$/,
+                test: /\.svga$/,
                 loader: "file-loader",
                 options: {
                     name: (path, query) => {
