@@ -47,7 +47,7 @@
         "prettier": "^2.2.1",
         "prettier-config-hive": "^0.1.7",
         "sass": "^1.32.8",
-        "sass-loader": "^11.0.1",
+        "sass-loader": "^10.1.0",
         "sort-package-json": "^1.49.0",
         "style-loader": "^2.0.0",
         "stylelint": "^13.12.0",
