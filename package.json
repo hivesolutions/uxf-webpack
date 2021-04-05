@@ -42,7 +42,7 @@
         "eslint-webpack-plugin": "^2.5.3",
         "fibers": "^5.0.0",
         "file-loader": "^6.2.0",
-        "html-webpack-plugin": "^5.3.1",
+        "html-webpack-plugin": "^4.5.2",
         "npm-check-updates": "^11.3.0",
         "prettier": "^2.2.1",
         "prettier-config-hive": "^0.1.7",
