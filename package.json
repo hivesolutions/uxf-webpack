@@ -7,13 +7,13 @@
         "ui",
         "uxf"
     ],
-    "homepage": "https://github.com/hivesolutions/uxf_webpack#readme",
+    "homepage": "https://github.com/hivesolutions/uxf-webpack#readme",
     "bugs": {
-        "url": "https://github.com/hivesolutions/uxf_webpack/issues"
+        "url": "https://github.com/hivesolutions/uxf-webpack/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hivesolutions/uxf_webpack.git"
+        "url": "git+https://github.com/hivesolutions/uxf-webpack.git"
     },
     "license": "Apache-2.0",
     "author": "Hive Solutions",
